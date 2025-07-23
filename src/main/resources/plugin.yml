@@ -1,0 +1,19 @@
+name: RandomTP
+version: 1.1
+main: peshpa.diaxus.randomtp.RandomTP
+api-version: '1.18'
+commands:
+  rtp:
+    description: Random Teleport
+  rtp.reload:
+    description: Reloads the plugin configuration
+permissions:
+  randomtp.bypass.cooldown:
+    description: "Allows players to bypass the cooldown for the /rtp command."
+    default: op
+  randomtp.reload:
+    description: "Allows reloading the plugin configuration"
+    default: op
+  randomtp.rtp.use:
+    description: "Allows the player to use random teleport."
+    default: true

@@ -1,0 +1,42 @@
+# RandomTP Plugin - config.yml
+# RTP CONFIG (Random Teleport)
+teleport:
+  # The smallest coordinates you can teleport to:
+  minZ: -100
+  minX: -100
+  # The largest coordinates you can teleport to:
+  maxX: 2500
+  maxZ: 2500
+  # Delay between uses of the RTP command
+  # Set this to "0" if you don't want any delay
+  # Use "randomtp.bypass.cooldown" to bypass the cooldown
+  # Time in seconds
+  cooldown: 60
+  # Blocks on which you cannot spawn
+  blocked-blocks:
+    - LAVA
+    - WATER
+    - CACTUS
+    - MAGMA_BLOCK
+    - OAK_LEAVES
+    - SPRUCE_LEAVES
+    - BIRCH_LEAVES
+    - JUNGLE_LEAVES
+    - ACACIA_LEAVES
+    - DARK_OAK_LEAVES
+    - AZALEA_LEAVES
+    - FLOWERING_AZALEA_LEAVES
+    - POWDER_SNOW
+# GTP CONFIG (Group Random Teleport)
+# To create a group teleport, you need to define a platform
+# The platform consists of 2 blocks
+# For the platform to be detected by the plugin, place the second block on top of the first
+# In our plugin, the platforms work such that they do not need a button to perform a teleport. All you need is two players on the platform
+platform:
+  # <!> We recommend not changing this value <!>
+  # However, if you change it, keep in mind that players could create a similar platform and use it, which might cause the plugin to crash
+  # It is safer if the first block is a barrier block, as players cannot obtain it
+  # If you prefer to disable this feature, use the "AIR" value
+  block1: BARRIER
+  # Unlike the previous one, you can change these values
+  block2: DIAMOND_BLOCK

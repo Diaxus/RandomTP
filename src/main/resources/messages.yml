@@ -1,0 +1,10 @@
+# RandomTP Plugin - messages.yml
+# You can use colors (&1-9, &a-e, &k-r) and hex codes (&#hex)
+teleport:
+  success: "&#FB0892&lʀᴛᴘ &8| &7Teleported to coordinates: &f{x}&7, &f{y}&7, &f{z}&7."
+  no-console: "You cannot use this command from the console."
+  cooldown: "&#FB0892&lʀᴛᴘ &8| &7You must wait &f{time} seconds &7before using this command again."
+  no-permission: "&#FB0892&lʀᴛᴘ &8| &7You do not have permission to use this command."
+reload:
+  success: "&#FB0892&lʀᴛᴘ &8| &7Configuration files reloaded successfully."
+  no-permission: "&#FB0892&lʀᴛᴘ &8| &7You do not have permission to use this command."
